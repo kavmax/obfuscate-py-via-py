@@ -49,7 +49,7 @@ I use Visustin v8 Demo for building visual diagrams.
 ### Input file
 ![plot](./assets/input.png)
 
-### 1 iterations
+### 1 iteration
 Each iteration adds some code. For example:
 ![plot](./assets/1-iterations.png)
 
