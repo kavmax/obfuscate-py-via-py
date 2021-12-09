@@ -43,16 +43,36 @@ class Car:
 
 
 my_car = Car("BMW")
+
 print(
     my_car.name
 )
 
+arr1 = [
+    1,
+    2
+]
 
-cat = "B" \
+list1 = list(
+    "123"
+)
+list2 = list("123")
+
+dict1 = dict({
+    "a1": 1,
+    "s1": 10
+})
+dict2 = dict({"a1": 1,"s1": 10})
+
+cat1 = "B" \
       "A" \
       "R" \
       "SIK"
 
+cat2 = "B" \
+"A" \
+       "R" \
+"SIK"
 
 def read_book(book):
     for idx, page in enumerate(book):
@@ -65,6 +85,12 @@ read_book([
     ["Line 1", "Line 2", "Line 3"],
     ["Line 1", "Line 2", "Line 3"]
 ])
+
+read_book([
+    ["Line 1", "Line 2", "Line 3"],
+    ["Line 1", "Line 2", "Line 3"]])
+
+read_book([["Line 1", "Line 2"]])
 
 if __name__ == "__main__":
     print("__name__ guard works")
