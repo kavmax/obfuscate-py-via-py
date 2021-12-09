@@ -9,6 +9,7 @@ input_file_paths = [
     "atbash_cipher/atbash_cipher_test.py"
 ]
 # Iterations for testing on each input file
+# Warning: 10 iterations are so slow and generates incredible big file
 iterations = [1, 2, 3, 5, 10]
 
 for input_file_path in input_file_paths:
@@ -26,4 +27,3 @@ for input_file_path in input_file_paths:
             f"./Examples/Outputs/{iteration_value}-iterations/{input_file_path}"
         )
         # code_inserter.console_print_lines()
-

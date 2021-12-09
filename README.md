@@ -2,6 +2,7 @@
 > Python obfuscator for Python files
 
 This simple code takes .py source file and makes .py obfuscated via adding fake data to your code.
+To run this project run **generate.py** file.
 
 ## Available fake data
 It can generate fake:
@@ -28,6 +29,7 @@ code_inserter.save_to_file("output-filename.py")
 ```
 
 `iterations` value shows the number of times your code has been processed
+
 
 ## Performance
 Tests on **anything.py** input file.
